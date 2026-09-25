@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A personal drill for reading mathematical formulas aloud in English.">
+    <meta name="theme-color" content="#0f392e">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Math English">
+    <title>Math English Reading Drill</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./icons/icon-180.png">
+    <link rel="stylesheet" href="./vendor/katex.min.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#drill">Skip to the drill</a>
+
+    <header class="hero">
+      <div class="page-width">
+        <p class="eyebrow">Personal offline study tool</p>
+        <h1>Math English Reading Drill</h1>
+        <p class="introduction">
+          Read each formula aloud, then reveal the suggested reading when it is available.
+        </p>
+      </div>
+    </header>
+
+    <main class="page-width">
+      <section class="contents" aria-labelledby="contents-title">
+        <h2 id="contents-title">Contents</h2>
+        <nav id="contents" aria-label="Formula categories"></nav>
+      </section>
+
+      <p id="status" class="status" role="status">Loading formulas…</p>
+      <div id="drill"></div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width">
+        <p>
+          For personal study. Formula index adapted from
+          <a href="https://cm.pg.edu.pl/en/mathematics/vocabulary/what-say">What to say…</a>
+          by the Mathematics Centre at Gdańsk University of Technology.
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

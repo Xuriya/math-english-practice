@@ -1,0 +1,16 @@
+{
+  "name": "math-english-reading-drill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "python3 scripts/fetch_what_to_say.py",
+    "extract": "python3 scripts/extract_what_to_say.py",
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run extract -- --check && npm run build && npm run validate && node --test"
+  },
+  "devDependencies": {
+    "katex": "0.18.7"
+  }
+}

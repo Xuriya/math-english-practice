@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Math English Reading Drill icon</title>
+  <desc id="description">A coordinate graph and rising curve on a dark green background.</desc>
+  <rect width="512" height="512" fill="#0f392e"/>
+  <circle cx="256" cy="256" r="158" fill="#f7f5ef"/>
+  <path d="M159 256h194M256 353V159" fill="none" stroke="#174f3f" stroke-linecap="round" stroke-width="18"/>
+  <path d="m178 326 42-31 35-66 39-30 40-14" fill="none" stroke="#be6a3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <circle cx="178" cy="326" r="13" fill="#be6a3a"/>
+  <circle cx="334" cy="185" r="13" fill="#be6a3a"/>
+</svg>
